@@ -1,0 +1,75 @@
+a{
+    text-decoration: none;
+    color:black
+}
+#all_products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap: 40px;
+    width:70%;
+    margin: auto;
+}
+#inner{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+#inner>p, #inner>h2{
+    margin-left:10% ;
+    margin-right:10% ;
+
+}
+#remove_product{
+    margin-left:10% ;
+    background-color: red;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 30px;
+}
+#remove_product:hover{
+     background-color: greenyellow;
+     color: white;
+     cursor: pointer;
+}
+#add_more_product{
+    margin-left:10% ;
+    background-color: rgb(37, 157, 157);
+    
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 30px;
+}
+/* {
+    margin-left:10% ;
+    background-color: rgb(37, 157, 157);
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 30px;
+} */
+#type,#desc,#price,#image{
+    display: block;
+    margin-bottom: 15px;
+    margin-left: 65px;
+   
+}
+#top{
+    margin-left: 37.5%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 320px;
+    margin-top: 60px;
+
+}
+#top>h2{
+    margin-left:90px;
+    padding-top: 60px;
+}
+#add_product{
+    margin-left: 90px;
+    margin-bottom: 40px;
+}
